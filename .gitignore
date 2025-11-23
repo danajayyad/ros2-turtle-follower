@@ -1,0 +1,11 @@
+# Build artifacts
+build/
+install/
+log/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
