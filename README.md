@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## Overview
 
 This project is a **leader-follower controller for turtles in ROS 2**, using the **turtlesim simulator**.  
@@ -202,19 +201,19 @@ source ~/.bashrc
 cd ~/ros2_ws/src
 git clone <repo-url>
 
-2. Navigate to the workspace root:
+2. **Navigate to the workspace root:**
 
 cd ~/ros2_ws
 
-3. Build the package using colcon:
+3. **Build the package using colcon:**
 
 colcon build --packages-select my_robot_controller
 
-4. Source the workspace to overlay the newly built package:
+4. **Source the workspace to overlay the newly built package:**
 
 source install/setup.bash
 
-5. Launch the system:
+5. **Launch the system:**
 
 ros2 launch my_robot_controller follow_turtles.launch.py
 
@@ -224,7 +223,3 @@ ros2 launch my_robot_controller follow_turtles.launch.py
 
 Use "Spawn Follower" to spawn turtles that automatically follow the leader.
 
-=======
-# ros2-turtle-follower
-"A ROS 2 Humble package for controlling a leader turtle with Tkinter GUI and automatically spawning followers in turtlesim."
->>>>>>> d124ebbe0e424e9fcd6edc33714007e2c2f9777e
