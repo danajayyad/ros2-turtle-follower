@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Overview
 
 This project is a **leader-follower controller for turtles in ROS 2**, using the **turtlesim simulator**.  
@@ -223,3 +224,7 @@ ros2 launch my_robot_controller follow_turtles.launch.py
 
 Use "Spawn Follower" to spawn turtles that automatically follow the leader.
 
+=======
+# ros2-turtle-follower
+"A ROS 2 Humble package for controlling a leader turtle with Tkinter GUI and automatically spawning followers in turtlesim."
+>>>>>>> d124ebbe0e424e9fcd6edc33714007e2c2f9777e
